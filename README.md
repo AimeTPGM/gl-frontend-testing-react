@@ -13,3 +13,5 @@ $npm start
 ```
 
 web app will be running on localhost:3000
+
+# Enjoy!
