@@ -7,8 +7,8 @@ const Card = (props) => {
 			<div class="card">
 				<img class="card-img-top" src={samepleImg} alt="Card image cap" />
 				<div class="card-body">
-					<p class="header">A</p>
-					<p class="content">B</p>
+					<p class="header">{props.header}</p>
+					<p class="content">{props.content}</p>
 				</div>
 			</div>
 		</div>

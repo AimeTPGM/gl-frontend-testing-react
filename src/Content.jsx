@@ -43,9 +43,11 @@ const Content = (props) => {
 			
 			<div class="container">
 				<div class="content-card-wrapper">
-					<Card />
-					
-					
+					{
+						cards.map(function(obj, i){
+							return <Card header={obj.header} content={obj.content} key={i} />
+						})
+					}
 				</div>
 			</div>
 		</div>
